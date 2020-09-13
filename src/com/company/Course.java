@@ -9,7 +9,7 @@ public class Course {
 
     public boolean isCorrectTitle(String title) {
         for (int i = 0; i < title.length(); i++) {
-            if (!Character.isAlphabetic(title.charAt(i)) && !(title.charAt(i) == '-')&& !(title.charAt(i) == ' '))
+            if (!Character.isAlphabetic(title.charAt(i)) && !(title.charAt(i) == '_')&& !(title.charAt(i) == ' '))
                 return false;
         }
         return true;
@@ -20,7 +20,7 @@ public class Course {
     }
 
     public void setName(String name) {
-        this.name = isCorrectTitle(name) ? name : "Ïncorrect";
+        this.name = isCorrectTitle(name) ? name : "Incorrect";
     }
 
     public String getFaculty() {
