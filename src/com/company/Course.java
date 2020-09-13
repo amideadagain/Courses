@@ -70,7 +70,6 @@ public class Course {
         this.setCode(code);
     }
     public String toString() {
-        return name + ", code " + code + ", faculty " + faculty +
-                ", teacher " + yourTeacher + ", hours " + hours;
+        return name + ", code " + code + ", faculty " + faculty + ", teacher " + yourTeacher + ", hours " + hours;
     }
 }

@@ -1,7 +1,6 @@
 package com.company;
 
 public class Main {
-
     public static void main(String[] args) {
         Course course = new Course("Экономика", "Менеджмент", 4, 42, 53);
         Courses courses = new Courses();
