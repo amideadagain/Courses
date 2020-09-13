@@ -69,4 +69,8 @@ public class Course {
         this.setHours(hours);
         this.setCode(code);
     }
+    public String toString() {
+        return name + ", code " + code + ", faculty " + faculty +
+                ", teacher " + yourTeacher + ", hours " + hours;
+    }
 }
